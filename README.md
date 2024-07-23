@@ -39,7 +39,7 @@ nook add --key yourkey --value yourvalue
 
 ### Deleting a Key-Value Pair
 
-To delete a key-value pair, use the `delete` command with the `--delete` (or `-d`) option.
+To delete a key-value pair, use the `delete` command with the `--key` (or `-k`) option.
 
 ```sh
 nook delete --delete yourkey
@@ -47,7 +47,7 @@ nook delete --delete yourkey
 
 ### Retrieving a Value
 
-To retrieve a value by key, use the `get_value` command with the `--getvalue` (or `-g`) option.
+To retrieve a value by key, use the `get_value` command with the `--key` (or `-k`) option.
 
 ```sh
 nook getvalue --key yourkey
