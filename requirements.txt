@@ -1,0 +1,5 @@
+build==1.2.1
+click==8.1.7
+packaging==24.1
+pyproject_hooks==1.1.0
+tomli==2.0.1

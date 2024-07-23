@@ -1,0 +1,23 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nook"
+version = "0.1.1"
+description = "A simple key-value pair management library with CLI"
+readme = "README.md"
+authors = [{ name = "Jerry George", email = "jbotrex@gmail.com" }]
+requires-python = ">=3.6"
+dependencies = ["Click"]
+
+[project.scripts]
+nook = "nook.main:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools]
+exclude-package-data = { "*" = ["tests/*"] }
