@@ -1,6 +1,6 @@
 # Nook
 
-**Nook** is a command-line interface (CLI) application that allows you to manage key-value pairs. It provides functionality to add, delete, and retrieve key-value pairs using simple commands. This project uses the Click library for the CLI interface and pickle for data persistence. It can also be used programmatically as a libray. 
+**Nook** is a command-line interface (CLI) application that allows you to manage key-value pairs. It provides functionality to add, delete, and retrieve key-value pairs using simple commands. This project uses the Click library for the CLI interface and pickle for data persistence. It can also be used programmatically.
 
 ## Features
 
