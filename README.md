@@ -42,7 +42,7 @@ nook add --key yourkey --value yourvalue
 To delete a key-value pair, use the `delete` command with the `--key` (or `-k`) option.
 
 ```sh
-nook delete --delete yourkey
+nook delete --key yourkey
 ```
 
 ### Retrieving a Value
