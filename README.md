@@ -55,22 +55,14 @@ nook getvalue --key yourkey
 
 ### Programmatic usage
 
-``` sh
+``` py
 from nook import add,delete,getvalue
-```
-```
-add.callback('key','value')
-```
 
-```
+# add new key value
+add.callback('key', 'value')
+# get new key value
 getvalue.callback('key')
-```
-
-```
-getvalue.callback('key')
-```
-
-```
+# delete new key and value
 delete.callback('key')
 ```
 ## Commands
